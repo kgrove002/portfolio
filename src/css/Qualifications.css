@@ -24,4 +24,8 @@ p {
   .Qualifications .traits {
     width: 70%;
   }
+
+  .Qualifications .stars {
+    font-size: 13px;
+  }
 }
