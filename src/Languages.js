@@ -17,6 +17,7 @@ const Languages = () => {
             <tr>
               <td>{data.language}</td>
               <td
+                className="stars"
                 style={
                   data.rating > 3
                     ? { color: 'green' }
