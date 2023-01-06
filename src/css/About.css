@@ -1,0 +1,40 @@
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  width: 70%;
+  padding: 2rem;
+  font-size: 18px;
+}
+
+.About table {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .About .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  .About {
+    display: block;
+  }
+
+  .intro {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    width: 70%;
+  }
+}

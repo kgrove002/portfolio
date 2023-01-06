@@ -1,0 +1,49 @@
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  margin-right: 2rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.contactForm label {
+  margin-top: 1rem;
+}
+
+.contactForm input[type='text'],
+.contactForm textarea {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+.contactForm textarea {
+  height: 100px;
+}
+
+.contactForm button {
+  margin-top: 1rem;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

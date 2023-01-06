@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Layout from './Layout';
+import About from './About';
+import Qualifications from './Qualifications';
+import Contact from './Contact';
+import './css/App.css';
+import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+  const [confirmation, setConfirmation] = useState('');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<About />} />
+        <Route path="Qualifications" element={<Qualifications />} />
+        <Route
+          path="Contact"
+          element={
+            <Contact
+              confirmation={confirmation}
+              setConfirmation={setConfirmation}
+            />
+          }
+        />
+      </Route>
+    </Routes>
   );
 }
 
