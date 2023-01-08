@@ -25,7 +25,7 @@ const Contact = ({ confirmation, setConfirmation }) => {
     <main className="Contact">
       <h2>Contact Me</h2>
       <p>
-        Below are links to exmaples of my work and a way to contact me directly.
+        Below are links to examples of my work and a way to contact me directly.
         I hope to hear from you soon!
       </p>
       <div className="buttons">

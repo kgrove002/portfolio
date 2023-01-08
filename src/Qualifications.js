@@ -17,7 +17,7 @@ const Qualifications = () => {
 
       <h2>Work Experience </h2>
       <p>
-        Currently I do not have any work experience in software development.
+        Currently, I do not have any work experience in software development.
         This section will be updated as work experience is obtained.
       </p>
 

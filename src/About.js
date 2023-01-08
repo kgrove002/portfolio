@@ -23,7 +23,7 @@ const About = () => {
         <table className="table table-bordered">
           <thead>
             <tr>
-              <th>Year Excpeted to Complete Goal</th>
+              <th>Year Expected to Complete Goal</th>
               <th>Goal</th>
             </tr>
           </thead>
