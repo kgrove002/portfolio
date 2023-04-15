@@ -1,4 +1,5 @@
 import { FaStar } from 'react-icons/fa';
+import pdf from './images/Certificate.pdf';
 
 const data = [
   {
@@ -19,7 +20,7 @@ const data = [
         <FaStar /> <FaStar /> <FaStar /> <FaStar />
       </>
     ),
-    link: 'https://github.com/kgrove002/ScoreBoard',
+    link: 'https://github.com/kgrove002/Boiler-App',
   },
   {
     language: 'React.js',
@@ -70,6 +71,26 @@ const data = [
       </>
     ),
     link: 'https://github.com/kgrove002/Example-of-Python',
+  },
+  {
+    language: 'R',
+    rating: 2,
+    stars: (
+      <>
+        <FaStar /> <FaStar />
+      </>
+    ),
+    link: null,
+  },
+  {
+    language: 'A++',
+    rating: 4,
+    stars: (
+      <>
+        <FaStar /> <FaStar /> <FaStar /> <FaStar />
+      </>
+    ),
+    link: pdf,
   },
 ];
 
