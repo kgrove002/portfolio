@@ -124,3 +124,9 @@ tr,
 td {
   border-color: black;
 }
+
+@media only screen and (max-width: 475px) {
+  .Footer p {
+    font-size: 0.95rem;
+  }
+}
